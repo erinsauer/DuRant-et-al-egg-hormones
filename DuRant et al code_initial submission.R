@@ -1,7 +1,8 @@
-#############################################################################
-#############   Code for DuRant et al. Diet-MG egg yolks  ###################
-#############      developed by Erin L. Sauer             ###################
-#############################################################################
+#######################################################################################################################
+#############   Code for DuRant et al. Diet-MG egg yolks developed by Erin L. Sauer                     ###############
+#############      THIS ANALYSIS WAS UPDATED JAN 2026 TO ADDRESS REVIEWER COMMENTS                      ###############
+#############      THIS SCRIPT IS NO LONGER REPRESENTITIVE OF THE ANAYSES IN THE REVISED MANUSCRIPT     ###############
+#######################################################################################################################
 
 ############## load packages ################################
 library(tidyverse)
@@ -14,7 +15,6 @@ library(gridExtra)
 library(DescTools)
 
 ############# tidy data #####################################
-setwd("/Users/joellenharris/DropBox/DuRant lab/Sarah DuRant/Egg hormones")
 horm <- read.csv("hormones.csv")
 str(horm)
 colnames(horm)
