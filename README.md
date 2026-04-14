@@ -1,4 +1,14 @@
 # DuRant-et-al-egg-hormones
-Code and data for DuRant et al.: "Maternal disease history and diet affect egg yolk steroids but not antibodies"
+Code and data for DuRant et al. 2026. Code was developed by Erin L. Sauer. For questions about the analyses, code, or datbases contact ELS at erinsauer10@gmail.com. For all other questions contact first author, Sarah E. DuRant at sedurant@uark.edu.
 
-Preprint doi: 
+Manuscript citation: Sarah E. DuRant, Erin L. Sauer, Ashley Love, Westin Perrine, Ashley Morris, Ryan Paitz. In press. Lingering physiological effects of a high fat diet and infectious disease in mothers have transgenerational implications. American Naturalist.
+Data repository DOI: 
+
+File description:
+DuRant et al code_Revision.R - This is the final version of the R script needed to run all the models and create figures and tables presented in the manuscript. Code is annotated and requires the csv's described below.
+
+eggAB.csv - Female ID (maternal ID), Egg Number (egg lay order within the clutch), Date Egg was Laid (the date the egg was laid), pre.dilution (calculated antibody concentration from raaw OD output, not accounting for dilution of the sample), avergae OD (mean optical density), plate (which ELISA plate the egg was run on), ng_ml (total IgY in units of ng/mL, accounting for dilution of the sample), Treatment (maternal MG treatment group), Diet (maternal diet treatment group), TD (combinaiton of MG and diet treatment groups).
+
+hormones.csv - Tube.number (unique identifier for each egg), Bird.ID (maternal ID), Inoculation.Date (date the female bird was innoculated with MG or sham), Treatment (maternal MG treatment group), Diet (maternal diet treatment group), Clutch# (all 1's, the first clutch was collected from each bird), Egg# (egg lay order), Date.Laid (Day the egg was laid), Egg.Mass.Freezer (mass of whole frozen egg), Yolk.Mass (mass of frozen yolks extracted from egg), sampleID (Tube.number with "RP" added), columns "Estrone" through "Pregnanolone" are individual hormone concentrations with the column name describing as the hormone that was measured. 
+
+moms2.csv - Database of maternal traits. Columns are: ID (maternal ID), Day.x (all 0's, day of exposure), Mass.x (maternal mass on exposure day 0), Fat.x (maternal fat score on exposure day 0), Day.y (last day of the exposure trial, day 35 post exposure), Mass.y (maternal mass on day 35), Fat.y (maternal fat score on day 35), dFat (Fat.y - Fat.x), dMass (Mass.y - Mass.x), ES.AUC (eye score area under the curve, calculated for each female over the 35 day trial), load.AUC (MG load area under the curve, calculated for each female over the 35 day trial), Bird.ID (same as "ID"), Egg.Mass.Freezer (mean mass of whole frozen eggs collected from clutch), Yolk.Mass (mean mass of frozen yolks extracted from eggs that were collected from this clutch), csize (clutch size), mean.load (mean log transformed MG load across the 35 day trial), max.load (maximum log transformed MG load across the 35 day trial).  
