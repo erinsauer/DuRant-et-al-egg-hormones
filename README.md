@@ -5,7 +5,7 @@ Manuscript citation: Sarah E. DuRant, Erin L. Sauer, Ashley Love, Westin Perrine
 Data repository DOI: 
 
 File description:
-DuRant et al code_Revision.R - This is the final version of the R script needed to run all the models and create figures and tables presented in the manuscript. Code is annotated and requires the csv's described below.
+DuRant et al code_Revision.R - This is the final version of the R script needed to run all the models and create figures and tables presented in the manuscript. Code is annotated and requires the csv's described below. This script was developed in RStudio (Version 2025.09.1+401) using R (Version 4.5.1, "Great Square Root" on platform "aarch64-apple-darwin20").
 
 eggAB.csv - Female ID (maternal ID), Egg Number (egg lay order within the clutch), Date Egg was Laid (the date the egg was laid), pre.dilution (calculated antibody concentration from raaw OD output, not accounting for dilution of the sample), avergae OD (mean optical density), plate (which ELISA plate the egg was run on), ng_ml (total IgY in units of ng/mL, accounting for dilution of the sample), Treatment (maternal MG treatment group), Diet (maternal diet treatment group), TD (combinaiton of MG and diet treatment groups).
 
