@@ -1,5 +1,5 @@
 # DuRant-et-al-egg-hormones
-Code and data for DuRant et al. 2026. Code was developed by Erin L. Sauer. For questions about the analyses, code, or datbases contact ELS at erinsauer10@gmail.com. For all other questions contact first author, Sarah E. DuRant at sedurant@uark.edu.
+Code and data for DuRant et al. 2026. Code was developed by Erin L. Sauer. For questions about the analyses, code, or datbases contact ELS at erinsauer10@gmail.com. For all other questions contact first author, Sarah E. DuRant at sedurant@uark.edu. Also archived here: https://doi.org/10.5281/zenodo.19598204
 
 Manuscript citation: Sarah E. DuRant, Erin L. Sauer, Ashley Love, Westin Perrine, Ashley Morris, Ryan Paitz. In press. Lingering physiological effects of a high fat diet and infectious disease in mothers have transgenerational implications. American Naturalist.
 Data repository DOI: 
